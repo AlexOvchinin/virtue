@@ -1,12 +1,11 @@
-package com.fm.virtue;
+package com.fm.virtue.app;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class VirtueApplication implements CommandLineRunner {
+@SpringBootApplication(scanBasePackages = "com.fm.virtue")
+public class VirtueApplication {
 
 	@Autowired
 	private TestConfig testConfig;

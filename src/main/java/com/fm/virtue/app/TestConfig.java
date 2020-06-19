@@ -1,4 +1,4 @@
-package com.fm.virtue;
+package com.fm.virtue.app;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
