@@ -1,0 +1,7 @@
+spring.profiles: default
+
+server.port: 9090
+
+test.config:
+  property1: abc
+  property2: def
