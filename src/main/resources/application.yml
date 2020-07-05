@@ -2,6 +2,14 @@ spring.profiles: default
 
 server.port: 9090
 
+spring.session:
+  store-type: jdbc
+
+spring.session.jdbc:
+  initialize-schema: embedded
+  schema: classpath:/schemas/h2/schema.sql
+  table-name: SPRING_SESSION
+
 test.config:
   property1: abc
   property2: def
